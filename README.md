@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <h>
+  <head>
+    <meta charset="UTF-8" />
    <title>James Virus V0.1</title>
-  </h>
+  </head>
 </html>
