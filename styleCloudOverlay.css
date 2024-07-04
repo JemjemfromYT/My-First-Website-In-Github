@@ -1,0 +1,38 @@
+css:
+button {
+ color: green;
+}
+
+
+body {
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrFr6fvwXyrizG6dAC3n7oGPuEWnl5cM33yYENENnKcx92gB6KbRHhRQk&s=10"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  
+  text-align: center;
+}
+
+
+#ColorWhenItTapped:hover {
+color: cyan;
+}
+
+
+
+
+
+a:hover {
+background-color: red;
+}
+
+
+
+#mirror {
+  transform: scaleX(1);
+  width: 350px;
+  height: 550px;
+  margin: 10px auto;
+  display: block;
+} 
