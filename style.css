@@ -1,9 +1,14 @@
-button {color: green;}
+button {
+ color: green;
+}
 
 
 body {
-  background-image:url("https://i.pinimg.com/originals/37/17/bb/3717bbf43b9f20fed6af7498355a671b.gif"); /* Replace with your desired image URL */
+  background-image:url("https://i.pinimg.com/originals/37/17/bb/3717bbf43b9f20fed6af7498355a671b.gif"); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
+  
+  text-align: center;
 }
