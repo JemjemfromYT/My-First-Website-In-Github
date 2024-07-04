@@ -1,3 +1,4 @@
+css:
 button {
  color: green;
 }
@@ -12,3 +13,26 @@ body {
   
   text-align: center;
 }
+
+
+#ColorWhenItTapped:hover {
+color: cyan;
+}
+
+
+
+
+
+a:hover {
+background-color: red;
+}
+
+
+
+#mirror {
+  transform: scaleX(1);
+  width: 350px;
+  height: 550px;
+  margin: 10px auto;
+  display: block;
+} 
