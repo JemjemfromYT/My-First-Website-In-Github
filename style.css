@@ -36,3 +36,24 @@ background-color: red;
   margin: 10px auto;
   display: block;
 } 
+
+.ILoveYouBorder {
+border: solid;
+}
+
+
+#survey {
+color: pink;
+background-color: yellow;
+border: solid 10px green;
+}
+
+#SurveyAsk {
+color: yellowgreen;
+}
+
+#ButtonSurvey {
+background-color: red;
+color: blue;
+border: solid 10px;
+}
