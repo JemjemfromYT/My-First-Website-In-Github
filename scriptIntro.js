@@ -32,7 +32,7 @@ startButton.addEventListener('click', () => {
 });
 
 infoButton.addEventListener('click', () => {
-  const targetUrl = infoButton.getAttribute('versionUpdate.html'); 
+  const targetUrl = infoButton.getAttribute('data-link'); 
   handleButtonClick(infoButton, targetUrl);
 });
 
