@@ -28,7 +28,7 @@ function handleButtonClick(button, targetUrl) {
 }
 
 startButton.addEventListener('click', () => {
-  handleButtonClick(startButton, 'indexIntro.html');
+  handleButtonClick(startButton, 'index.html');
 });
 
 infoButton.addEventListener('click', () => {
