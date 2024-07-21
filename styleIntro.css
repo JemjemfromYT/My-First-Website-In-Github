@@ -1,0 +1,24 @@
+.navelement {
+display: block;
+padding: 10px;
+background-color: gray;
+color: white;
+transition-duration: 2.0s;
+text-align: center;
+width: 100рх;
+margin: 0 auto; /* Center the element horizontally */
+}
+
+.navelement:hover {
+background-color: lightblue;
+color: blue;
+cursor: pointer;
+transform: translateX(100px);
+}
+
+body {
+margin: 223px 40px 0 0;
+}
+
+body {
+  background-image:url("https://i.pinimg.com/originals/37/17/bb/3717bbf43b9f20fed6af7498355a671b.gif");
