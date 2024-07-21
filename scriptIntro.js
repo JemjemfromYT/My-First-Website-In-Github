@@ -1,7 +1,9 @@
 const startButton = document.querySelector('.navelement:nth-child(1)');
+const infoButton = document.getElementById('infoButton');
+const quitButton = document.getElementById('quitButton');
 const clickSound = document.getElementById('clickSound'); // Get the audio element
 
-startButton.addEventListener('click', () => {
+function handleButtonClick(button, targetUrl) {
   clickSound.play(); // Play the sound effect
 
   const overlay = document.createElement('div');
@@ -20,7 +22,21 @@ startButton.addEventListener('click', () => {
     overlay.style.opacity = '1'; // Fade in the overlay
 
     setTimeout(() => {
-      window.location.href = 'https://my-first-website-in-github.vercel.app/'; 
+      window.location.href = targetUrl; 
     }, 500); // Redirect after 0.5 seconds (to match the fade-in duration)
-  }, 1500); // Delay the fade-in by 2 seconds
+  }, 1500); // Delay the fade-in by 1.5 seconds
+}
+
+startButton.addEventListener('click', () => {
+  handleButtonClick(startButton, 'https://my-first-website-in-github.vercel.app/');
 });
+
+infoButton.addEventListener('click', () => {
+  const targetUrl = infoButton.getAttribute('data-link'); 
+  handleButtonClick(infoButton, targetUrl);
+});
+
+quitButton.addEventListener('click', () => {
+  handleButtonClick(quitButton, 'help.html'); 
+});
+
