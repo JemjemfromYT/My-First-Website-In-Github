@@ -28,7 +28,7 @@ function handleButtonClick(button, targetUrl) {
 }
 
 startButton.addEventListener('click', () => {
-  handleButtonClick(startButton, 'https://my-first-website-in-github.vercel.app/');
+  handleButtonClick(startButton, 'indexIntro.html');
 });
 
 infoButton.addEventListener('click', () => {
